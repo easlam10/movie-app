@@ -9,3 +9,12 @@ flowchart TD
     E --> F[Store Themes-Moods in Movie Model]
 ```
 
+```mermaid
+flowchart TD
+  A[User Profile (Watched, Rated, Favorites)] --> B[Create User Vector]
+  B --> C[Filter Movies by Block (Mood, Genre, etc.)]
+  C --> D[Score Movies (Similarity, Rating, Recency)]
+  D --> E[Rank and Return Top N]
+  E --> F[Display Recommendations]
+```
+
