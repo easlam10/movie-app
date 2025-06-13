@@ -11,10 +11,10 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A[User Profile (Watched, Rated, Favorites)] --> B[Create User Vector]
-  B --> C[Filter Movies by Block (Mood, Genre, etc.)]
-  C --> D[Score Movies (Similarity, Rating, Recency)]
-  D --> E[Rank and Return Top N]
-  E --> F[Display Recommendations]
+    A[User Profile Data\nWatched, Rated, Favorites] --> B[Create User Vector]
+    B --> C[Filter Movies by Criteria\nMood, Genre etc.]
+    C --> D[Score Movies\nSimilarity, Rating, Recency]
+    D --> E[Rank and Return Top N]
+    E --> F[Display Recommendations]
 ```
 
