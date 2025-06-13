@@ -13,7 +13,7 @@ flowchart TD
 flowchart TD
     A[Fetch Movie from TMDB] --> B[Extract Plot, Keywords, Genres]
     B --> C[Use Sentence Transformer to Embed Plot]
-    C --> D[Ask AI for Themes & Moods\n(Gemini or OpenAI)]
+    C --> D[Ask AI Gemini or OpenAI for Themes and Moods]
     D --> E[Blend TMDB Keywords, Embeddings, AI Suggestions]
-    E --> F[Store Themes & Moods in Movie Model]
+    E --> F[Store Themes and Moods in Movie Model]
 ```
