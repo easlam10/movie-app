@@ -7,5 +7,5 @@ flowchart TD
   C --> D[Ask AI (Gemini/OpenAI) for Themes/Moods]
   D --> E[Blend TMDB Keywords, Embeddings, AI Suggestions]
   E --> F[Store Themes/Moods in Movie Model]
-      end
+
 ```
